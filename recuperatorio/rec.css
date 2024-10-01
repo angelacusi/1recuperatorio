@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.parte1{
+    height: 50px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+}
+.parte2{
+    height: 100px;
+    background-color: rgb(223, 165, 89);
+    border: 1px solid black;
+
+}
+.parte3{
+    height: 180px;
+    background-color: rgb(64, 206, 118);
+    border: 1px solid black;
+
+}
+.parte4{
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    border: 1px solid black;
+
+}
+
+.izq{
+    width: 50%;
+    background-color: rgb(252, 215, 166);
+}
+.der{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.der1{
+
+    background-color: firebrick ;
+    height: 25%;
+}
+
+.der2{
+    background-color: rgb(111, 247, 48);
+    height: 35%;
+}
+
+.der3{
+    height: 40%;
+    background-color: rgb(233, 233, 111);
+}
+
+.parte5{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    border: 1px solid black;
+
+}
+
+.tabla{
+    background-color: aqua;
+    width: 50%;
+}
+
+.de5{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+
+.ubi{
+    background-color:aqua ;
+    height: 40%;
+}
+.form{
+    background-color:aqua ;
+    height: 60%;
+}
+
+.parte6{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    border: 1px solid black;
+
+}
+
+.footer1{
+    background-color: aqua;
+    width: 25%;
+}
